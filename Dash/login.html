@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        /* form{
+          margin-top: 200px;
+          margin-left: 500px;
+        } */
+         .login{
+            align-items: center;
+         }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h1>BusBuddy</h1>
+    <form id="loginform" >
+        <input type="email" placeholder="College Email ID" id="loginemail">
+        <span id="loginemailerror" class="error"></span>
+<br><br>
+        <input type="pass" placeholder="PassWord" id="loginpass">
+        <span id="loginpasserror" class="error"></span>
+<br><br>
+
+        <select id="role">
+            <option value="student">Student</option>
+            <option value="driver">Driver</option>
+            <option value="admin">Admin</option>
+        </select>
+
+        <br><br>
+        <button type="submit">Login</button>
+        <script src="login.js"></script>
+    </form>
+    </div>
+</body>
+</html>
